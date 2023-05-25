@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Nayan Jani",
+    "section": "",
+    "text": "I am currently a Data Analytics and Computational Social Science Masters student at UMass Amherst with a passion for solving complex problems that improve business decisions and lives of other people. I have always been intrigued by the power of data, and pursuing a Master’s degree in Data Analytics has allowed me to explore this field in depth.\nThroughout my academic and professional journey, I’ve developed strong skills in data analysis, statistics, and machine learning, and I’m always eager to learn new techniques and tools to better serve my clients. I’ve worked on projects ranging from predictive modeling for housing markets to social media sentiment analysis, and I enjoy using my skills to find insights and patterns that can inform decision-making and drive positive change.\nAdditionally, I have completed several projects that required me to collect, clean, and analyze large sets of data, which provided me with hands-on experience with data cleaning and scraping, feature engineering, model selection, and evaluation using tools such as SQL, R, and Python. My previous internship at Bora, a startup company, enabled me to work with a variety of stakeholders, providing me with experience in working collaboratively, which I believe is essential for success.\nAs a person, I’m motivated by a desire to help others. I believe that data can be a powerful force for improving the quality of life of any individual, and I’m committed to using my skills to help businesses and individuals achieve their goals. Whether I’m working on a complex analysis or brainstorming ideas with colleagues, I always strive to be supportive, empathetic, and collaborative, and I enjoy working with people from diverse backgrounds and perspectives. I’m excited to be part of the next generation of data professionals who will make a positive impact in the world.\nIf you’re interested in connecting with me or learning more about my work, please don’t hesitate to reach out."
+  },
+  {
+    "objectID": "about.html#research-interests",
+    "href": "about.html#research-interests",
+    "title": "Nayan Jani",
+    "section": "Research interests",
+    "text": "Research interests\nThe topic I explored for my Senior recitation is the use of Machine Learning in estimating the heterogeneous treatment effect using datasets that involve AIDS and breast cancer treatments. More specifically, I looked into certain meta learners that can estimate the conditional average treatment effect so that we can personalize treatment regimes. Here at Umass I hope to learn more about how to apply data science to medical treatments for people with illnesses."
+  },
+  {
+    "objectID": "about.html#hometown",
+    "href": "about.html#hometown",
+    "title": "Nayan Jani",
+    "section": "Hometown",
+    "text": "Hometown\nWestford, MA"
+  },
+  {
+    "objectID": "about.html#hobbies",
+    "href": "about.html#hobbies",
+    "title": "Nayan Jani",
+    "section": "Hobbies",
+    "text": "Hobbies\n\nVideo Games\nFantasy Football\nWatching Sports\nPlaying Cards and Board Games"
+  },
+  {
+    "objectID": "about.html#fun-fact",
+    "href": "about.html#fun-fact",
+    "title": "Nayan Jani",
+    "section": "Fun fact",
+    "text": "Fun fact\nI have over 50 cousins that live in the UK!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "DACSS 601 August 2022",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "templates/AboutTemplate.html",
+    "href": "templates/AboutTemplate.html",
+    "title": "Your Name",
+    "section": "",
+    "text": "##Instructions"
+  },
+  {
+    "objectID": "templates/AboutTemplate.html#educationwork-background",
+    "href": "templates/AboutTemplate.html#educationwork-background",
+    "title": "Your Name",
+    "section": "Education/Work Background",
+    "text": "Education/Work Background"
+  },
+  {
+    "objectID": "templates/AboutTemplate.html#r-experience",
+    "href": "templates/AboutTemplate.html#r-experience",
+    "title": "Your Name",
+    "section": "R experience",
+    "text": "R experience"
+  },
+  {
+    "objectID": "templates/AboutTemplate.html#research-interests",
+    "href": "templates/AboutTemplate.html#research-interests",
+    "title": "Your Name",
+    "section": "Research interests",
+    "text": "Research interests"
+  },
+  {
+    "objectID": "templates/AboutTemplate.html#hometown",
+    "href": "templates/AboutTemplate.html#hometown",
+    "title": "Your Name",
+    "section": "Hometown",
+    "text": "Hometown"
+  },
+  {
+    "objectID": "templates/AboutTemplate.html#hobbies",
+    "href": "templates/AboutTemplate.html#hobbies",
+    "title": "Your Name",
+    "section": "Hobbies",
+    "text": "Hobbies"
+  },
+  {
+    "objectID": "templates/AboutTemplate.html#fun-fact",
+    "href": "templates/AboutTemplate.html#fun-fact",
+    "title": "Your Name",
+    "section": "Fun fact",
+    "text": "Fun fact"
+  },
+  {
+    "objectID": "templates/PostTemplate.html",
+    "href": "templates/PostTemplate.html",
+    "title": "Blog Post Template",
+    "section": "",
+    "text": "Code\nlibrary(tidyverse)\n\nknitr::opts_chunk$set(echo = TRUE)"
+  },
+  {
+    "objectID": "templates/PostTemplate.html#instructions",
+    "href": "templates/PostTemplate.html#instructions",
+    "title": "Blog Post Template",
+    "section": "Instructions",
+    "text": "Instructions\nThis document provides yaml header inforamtion you will need to replicate each week to submit your homework or other blog posts. Please observe the following conventions:\n\nSave your own copy of this template as a blog post in the posts folder.\nEdit the yaml header to change your author name\ninclude a description that is reader friendly\nupdate the category list to indicate what category is the blog post, the data used, the main packages or techniques, your name, or any thing else to make your document easy to find\nedit as a normal qmd/rmd file\n\n\n\nCode\nx <- c(2,3,4,5)\nmean(x)\n\n\n[1] 3.5"
+  },
+  {
+    "objectID": "templates/PostTemplate.html#rendering-your-post",
+    "href": "templates/PostTemplate.html#rendering-your-post",
+    "title": "Blog Post Template",
+    "section": "Rendering your post",
+    "text": "Rendering your post\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code.\n\n\n\n\n\n\nWarning\n\n\n\nBe sure that you have moved your *.qmd file into the posts folder BEFORE you render it, so that all files are stored in the correct location.\n\n\n\n\n\n\n\n\nImportant\n\n\n\nOnly render a single file - don’t try to render the whole website!\n\n\n\n\n\n\n\n\nPilot Student Blogs\n\n\n\nWe are piloting a workflow including individual student websites with direted and limited pull requests back to course blogs. Please let us know if you would like to participate."
+  },
+  {
+    "objectID": "templates/PostTemplate.html#reading-in-data-files",
+    "href": "templates/PostTemplate.html#reading-in-data-files",
+    "title": "Blog Post Template",
+    "section": "Reading in data files",
+    "text": "Reading in data files\nThe easiest data source to use - at least initially - is to choose something easily accessible, either from our _data folder provided, or from an online source that is publicly available.\n\n\n\n\n\n\nUsing Other Data\n\n\n\nIf you would like to use a source that you have access to and it is small enough and you don’t mind making it public, you can copy it into the _data file and include in your commit and pull request.\n\n\n\n\n\n\n\n\nUsing Private Data\n\n\n\nIf you would like to use a proprietary source of data, that should be possible using the same process outlined above. There may initially be a few issues. We hope to have this feature working smoothly soon!"
+  }
+]
