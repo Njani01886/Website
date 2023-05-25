@@ -1,0 +1,40 @@
+---
+title: "Your Name"
+image: images/YourName.jpeg
+about:
+  template: solana
+  image-width: 15em
+  image-shape: round
+  image: images/YourName.jpeg
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/github_user
+---
+
+##Instructions
+
+  - save a copy of this document in the **about** folder
+  - replace *Your Name* in yaml header with your first and last name
+  - save an image (jpeg, png) to use in the **about/images** folder
+  - replace image names in yaml header
+  - replace github user name
+  - edit in information below, as appropriate, and modify this as you needed to tell about yourself or the contributors
+  - commit to github and submit pull request
+
+## Education/Work Background
+
+
+## R experience
+
+
+## Research interests
+
+
+## Hometown
+
+
+## Hobbies
+
+
+## Fun fact
