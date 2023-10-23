@@ -8,9 +8,9 @@
 
 <meta name="author" content="Nayan Jani">
 <meta name="dcterms.date" content="2023-08-07">
-<meta name="description" content="Analysis of Food Consumption">
+<meta name="description" content="Three-way cross tabulations analysis">
 
-<title>Nayan’s Blog - Final Project 604</title>
+<title>Nayan’s Blog - Identifying Sources of Poor Nutrition for Americans</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -132,8 +132,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <script src="../site_libs/pagedtable-1.1/js/pagedtable.js"></script>
 
 
-<meta name="twitter:title" content="Nayan’s Blog - Final Project 604">
-<meta name="twitter:description" content="Analysis of Food Consumption">
+<meta name="twitter:title" content="Nayan’s Blog - Identifying Sources of Poor Nutrition for Americans">
+<meta name="twitter:description" content="Three-way cross tabulations analysis">
 <meta name="twitter:creator" content="@UMassDACSS">
 <meta name="twitter:card" content="summary">
 </head>
@@ -195,16 +195,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title">Final Project 604</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<div class="quarto-title-block"><div><h1 class="title">Identifying Sources of Poor Nutrition for Americans</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
   <div class="quarto-categories">
-    <div class="quarto-category">final</div>
-    <div class="quarto-category">food</div>
+    <div class="quarto-category">Multivariate Analysis</div>
+    <div class="quarto-category">USDA</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Analysis of Food Consumption
+    Three-way cross tabulations analysis
   </div>
 </div>
 
@@ -1754,9 +1754,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <script src="https://giscus.app/client.js" data-repo="DACSS/DACSS_601_August2022_v2" data-repo-id="R_kgDOH1g84A" data-category="Blog" data-category-id="" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
 </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="sourceCode" id="cb74" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb74-1"><a href="#cb74-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb74-2"><a href="#cb74-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Final Project 604"</span></span>
-<span id="cb74-3"><a href="#cb74-3" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> "Nayan Jani "</span></span>
-<span id="cb74-4"><a href="#cb74-4" aria-hidden="true" tabindex="-1"></a><span class="an">description:</span><span class="co"> "Analysis of Food Consumption"</span></span>
+<span id="cb74-2"><a href="#cb74-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Identifying Sources of Poor Nutrition for Americans"</span></span>
+<span id="cb74-3"><a href="#cb74-3" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> "Nayan Jani"</span></span>
+<span id="cb74-4"><a href="#cb74-4" aria-hidden="true" tabindex="-1"></a><span class="an">description:</span><span class="co"> "Three-way cross tabulations analysis"</span></span>
 <span id="cb74-5"><a href="#cb74-5" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> "08/07/2023"</span></span>
 <span id="cb74-6"><a href="#cb74-6" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span></span>
 <span id="cb74-7"><a href="#cb74-7" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
@@ -1765,8 +1765,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb74-10"><a href="#cb74-10" aria-hidden="true" tabindex="-1"></a><span class="co">    code-copy: true</span></span>
 <span id="cb74-11"><a href="#cb74-11" aria-hidden="true" tabindex="-1"></a><span class="co">    code-tools: true</span></span>
 <span id="cb74-12"><a href="#cb74-12" aria-hidden="true" tabindex="-1"></a><span class="an">categories:</span></span>
-<span id="cb74-13"><a href="#cb74-13" aria-hidden="true" tabindex="-1"></a><span class="co">  - final</span></span>
-<span id="cb74-14"><a href="#cb74-14" aria-hidden="true" tabindex="-1"></a><span class="co">  - food</span></span>
+<span id="cb74-13"><a href="#cb74-13" aria-hidden="true" tabindex="-1"></a><span class="co">  - Multivariate Analysis</span></span>
+<span id="cb74-14"><a href="#cb74-14" aria-hidden="true" tabindex="-1"></a><span class="co">  - USDA</span></span>
 <span id="cb74-15"><a href="#cb74-15" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb74-16"><a href="#cb74-16" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb74-19"><a href="#cb74-19" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
